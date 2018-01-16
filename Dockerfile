@@ -22,4 +22,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       && chown www-data:www-data /var/www/html
 COPY conf/php.ini /usr/local/etc/php/
 COPY conf.d/ /usr/local/etc/php/conf.d/
-COPY app/ /var/www/html/
+
